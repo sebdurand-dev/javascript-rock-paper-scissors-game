@@ -48,7 +48,7 @@ async function playGame() {
       humanScore += 1
       console.log("Rock beats scissors! (Player wins)")
     }
-    else if (computerSelection == "scissors " && humanSelection == "paper") {
+    else if (computerSelection == "scissors" && humanSelection == "paper") {
       computerScore += 1
       console.log("Scissors beats paper! (Computer wins)")
     }
@@ -62,7 +62,7 @@ async function playGame() {
     }
     else if (computerSelection == "rock" && humanSelection == "paper") {
       humanScore += 1
-      console.log("Rock beats scissors! (Player wins)")
+      console.log("Paper beats rock! (Player wins)")
     }
     else {
       console.log("Tie! No points awarded.")
