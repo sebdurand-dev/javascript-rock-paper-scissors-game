@@ -1,13 +1,14 @@
 
 ## About The Project
 
-* Rock paper scissors game which takes in a randomized computer selection and a user input.
+* Uses Node.js readline module to manage user text input asynchronously.
+* Uses asynchronous JavaScript to handle sequential terminal prompts cleanly.
 * Catches input errors in user input.
 
 ## Built With
 
 * JavaScript
-* Node.js & Node.js Readline Module
+* Node.js
 * Command Line Interface (CLI)
 ---
 
